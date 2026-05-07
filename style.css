@@ -1,0 +1,33 @@
+body{
+    width:100vw;
+    height:auto;
+}
+.api{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    gap:8px;
+
+}
+
+.api > div{
+    width:300px;
+    height: 350px;
+
+    background-color:lightgoldenrodyellow ;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.api>div>img{
+    width: 200px;
+    height:200px;
+    box-shadow: 2px 2px 5px 2px lightgray;
+    border-radius: 3px;
+}
+.api>div:hover{
+    background-color: lightsalmon;
+}
